@@ -1,0 +1,150 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+}
+
+nav {
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    background-color: black;
+}
+
+nav img {
+    height: 50px;
+    width: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: underline;
+    color: seashell;
+}
+
+section#mission {
+    margin: 69px 50px 0 50px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/img-mission-background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+section#mission div {
+    width: 100%;
+    background: black;
+}
+
+section#mission h2,
+section#mission h4 {
+    margin: 10px 0;
+}
+
+section#featured-tea {
+    width: 80%;
+    margin: 70px auto;
+}
+
+.gallery {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+figure {
+    margin: 0;
+}
+
+.gallery img {
+    width: 300px;
+    height: auto;
+}
+
+.gallery figcaption {
+    margin-top: 10px;
+}
+
+section#locations {
+    background-image: url(../img/img-locations-background.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    gap: 15px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.address-container {
+    display: flex;
+    gap: 40px;
+}
+
+.address {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: black;
+}
+
+section#locations h2,
+.address h3 {
+    margin: 0;
+}
+
+.address p {
+    margin: 50px 0 0 0;
+}
+
+footer {
+    height: 200px;
+}
+
+footer h2 {
+    margin: 10px 0 30px 0;
+}
+
+footer h5 {
+    margin: 30px;
+}
+
+footer p {
+    font-size: 16px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.copyright {
+    font-size: small;
+    margin: 20px 0 0 0;
+    text-align: left;
+}
